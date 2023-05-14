@@ -41,9 +41,9 @@ export default function Footer() {
         <Link className="link link-hover" href='/about' >About Us</Link>
         <Link className="link link-hover" href='/contact'>Contact</Link>
       </div>
-      <div>
+      <div className=" -z-0">
         <span className="footer-title">Location</span>
-        <div className="h-[30vh] md:w-[70vh] w-[36vh] bg-secondary overflow-hidden rounded-lg ">
+        <div className="h-[30vh] md:w-[70vh] w-[36vh] bg-secondary overflow-hidden rounded-lg z-auto">
           <GoogleMapReact
             bootstrapURLKeys={{
               key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY,
