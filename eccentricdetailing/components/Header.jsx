@@ -17,7 +17,7 @@ export default function Header() {
   const products = [
     { name: "Detailing", href: "/detailing" },
     { name: "Paint Correction", href: "/paint-correction" },
-    { name: "Paint Correction Film", href: "/paint-correction-film" },
+    { name: "Ceramic Tints", href: "/ceramic-tints" },
     { name: "Ceramic Coating", href: "/ceramic-coating" },
     { name: "Tints", href: "/tints" },
     { name: "Wraps", href: "/wraps" },
@@ -25,7 +25,7 @@ export default function Header() {
   const callsToAction = [
     {
       name: "Book Now",
-      href: "/https://squareup.com/appointments/book/xzx7iluifnx3n8/L95D8Y2HQSHR0/services",
+      href: "https://squareup.com/appointments/book/xzx7iluifnx3n8/L95D8Y2HQSHR0/services",
       icon: PhoneIcon,
     },
   ];
@@ -90,7 +90,7 @@ export default function Header() {
                 </div>
                 <div className=" bg-white">
                   {callsToAction.map((item) => (
-                    <Link
+                    <a
                       key={item.name}
                       href={item.href}
                       className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
@@ -100,7 +100,7 @@ export default function Header() {
                         aria-hidden="true"
                       />
                       {item.name}
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </Popover.Panel>
