@@ -1,12 +1,8 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon, PhoneIcon } from "@heroicons/react/20/solid";
-import GoogleMapReact from "google-map-react";
-import { Icon } from "@iconify/react";
-import { SocialIcon } from "react-social-icons";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -31,7 +27,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-black">
+    <header className="bg-black w-screen h-full">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -191,7 +187,7 @@ export default function Header() {
                 </Link>
                 <a
                   href="https://squareup.com/appointments/book/xzx7iluifnx3n8/L95D8Y2HQSHR0/services"
-                  className="text-sm font-semibold leading-6 text-white"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-neutral-600"
                 >
                   BOOK NOW
                 </a>
