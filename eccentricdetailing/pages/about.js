@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Footer from '@/components/Footer'
+import Header from '@/components/header'
 
 const people = [
     {
@@ -30,8 +32,9 @@ const people = [
 export default function About() {
     return (
         <>
+            <Header />
             <div className="bg-black">
-                <div className="flex flex-col items-center justify-center mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+                <div className="flex flex-col items-center justify-center mx-auto max-w-7xl py-10 sm:px-6 sm:py-32 lg:px-8">
                     <h2 className="text-5xl font-bold tracking-tight text-white sm:text-5xl">
                         About Eccentric
                     </h2>
@@ -56,7 +59,7 @@ export default function About() {
                             peepepepeppepeoopoepoo.
                         </p>
                     </div>
-                    <ul role="list" className="grid pl-5 gap-x-8 gap-y-15 sm:grid-cols-4 sm:gap-y-20 xl:col-span-2">
+                    <ul role="list" className="grid pl-5 gap-5 gap-x-8 gap-y-15 sm:grid-cols-4 sm:gap-y-20 xl:col-span-2">
                         {people.map((person) => (
                             <li key={person.name}>
                                 <div className="flex items-center gap-x-6">
@@ -93,7 +96,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="bg-black">
+            <div className="bg-black w-screen h-full p-10">
                 <div className="flex flex-col items-center justify-center mx-auto max-w-7xl py-10 sm:px-6 sm:py-32 lg:px-8">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">
                         We guarantee you'll love our work.
@@ -109,6 +112,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

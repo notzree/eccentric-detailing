@@ -1,12 +1,8 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon, PhoneIcon } from "@heroicons/react/20/solid";
-import GoogleMapReact from "google-map-react";
-import { Icon } from "@iconify/react";
-import { SocialIcon } from "react-social-icons";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -31,7 +27,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-black">
+    <header className="bg-black w-screen h-full">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
