@@ -187,7 +187,7 @@ export default function Header() {
                 </Link>
                 <a
                   href="https://squareup.com/appointments/book/xzx7iluifnx3n8/L95D8Y2HQSHR0/services"
-                  className="text-sm font-semibold leading-6 text-white"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-neutral-600"
                 >
                   BOOK NOW
                 </a>
