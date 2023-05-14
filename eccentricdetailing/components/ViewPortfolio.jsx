@@ -20,9 +20,9 @@ export default function ViewPortfolio() {
                     </div>
 
                     <div className='py-20 w-screen h-[1/4vh] grid grid-cols-3'>
-                        <div className='bg-red-500'>aok</div>
-                        <div className='bg-blue-600'>jsjs</div>
-                        <div className='bg-white'>shs</div>
+                        <div className="h-full"><img src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" /></div>
+                        <div className="h-full"><img src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" /></div>
+                        <div className="h-full"><img src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" /></div>
                     </div>
                 </div>
             </div>
