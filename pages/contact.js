@@ -17,7 +17,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import { Switch } from "@headlessui/react";
 import Footer from "@/components/Footer";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import { toast } from "react-hot-toast";

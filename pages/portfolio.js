@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Switch } from '@headlessui/react'
 import Footer from '@/components/Footer'
-import Header from '@/components/header'
+import Header from '@/components/Header'
 
 const products = [
     {

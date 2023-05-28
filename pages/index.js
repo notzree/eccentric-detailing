@@ -1,6 +1,6 @@
 import BookButton from '@/components/BookNowButton'
 import Footer from '@/components/Footer'
-import Header from '@/components/header'
+import Header from '@/components/Header'
 import Link from 'next/link'
 
 const features = [

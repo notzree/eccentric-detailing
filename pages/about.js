@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import Header from '@/components/header'
+import Header from '@/components/Header'
 import BookButton from "@/components/BookNowButton";
 
 const people = [

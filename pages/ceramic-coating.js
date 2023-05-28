@@ -1,6 +1,6 @@
 import BookButton from "@/components/BookNowButton";
 import Footer from "@/components/Footer";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import ViewPortfolio from "@/components/ViewPortfolio";
 import { CheckIcon } from '@heroicons/react/20/solid'
 
