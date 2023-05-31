@@ -81,14 +81,24 @@ export default function Detailing() {
             <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
               <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                 <div className="mx-auto max-w-xs px-8">
-                  <p className="text-base font-semibold text-neutral-500">Base Price</p>
-                  <p className="mt-6 flex items-baseline justify-center gap-x-2">
+                  <p className="text-base font-semibold text-neutral-500">Small vehicles</p>
+                  <p className=" flex items-baseline justify-center gap-x-2">
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$145</span>
+                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                  </p>
+                  <p className="mt-6 text-base font-semibold text-neutral-500">Medium vehicles</p>
+                  <p className=" flex items-baseline justify-center gap-x-2">
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$155</span>
+                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                  </p>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large vehicles (3 rows)</p>
+                  <p className=" flex items-baseline justify-center gap-x-2">
                     <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
 
                   <p className="mt-6 text-xs leading-5 text-gray-600">
-                    Price varies based on vehicle model. Add ons available.
+                    Vehicle sizing up to Eccentric's discretion. Add ons available.
                   </p>
                 </div>
               </div>
@@ -119,14 +129,24 @@ export default function Detailing() {
             <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
               <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                 <div className="mx-auto max-w-xs px-8">
-                  <p className="text-base font-semibold text-neutral-500">Base Price</p>
-                  <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Small vehicle</p>
+                  <p className=" flex items-baseline justify-center gap-x-2">
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$200</span>
+                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                  </p>
+                  <p className=" mt-6  text-base font-semibold text-neutral-500">Medium vehicle</p>
+                  <p className="flex items-baseline justify-center gap-x-2">
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$220</span>
+                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                  </p>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large vehicle (3 rows)</p>
+                  <p className=" flex items-baseline justify-center gap-x-2">
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$250</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
 
                   <p className="mt-6 text-xs leading-5 text-gray-600">
-                    Price varies based on vehicle model. Add ons available.
+                  Vehicle sizing up to Eccentric's discretion. Add ons available.
                   </p>
                 </div>
               </div>
