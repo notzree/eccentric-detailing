@@ -17,45 +17,40 @@ export default function CeramicCoating() {
             <Header />
 
 
-            <div className="hero min-h-screen" style={{"background-image": "url(/ceramicCoatingHeroPhoto.png)"}}>
+            <div className="hero min-h-screen" style={{ "background-image": "url(/ceramicCoatingHeroPhoto.png)" }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">
                     <div className="">
                         <h1 className="mb-10 text-white text-6xl font-bold">CERAMIC COATING</h1>
-                        
+
                         <BookButton />
                     </div>
                 </div>
             </div>
-            <div className='w-screen flex flex-col md:flex-row'>
-                <div className="isolate bg-white px-6 py-20 lg:px-8 md:w-1/2">
+            <div className='w-screen'>
+                <div className="isolate bg-white py-20 lg:px-8">
                     <div
                         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
                         aria-hidden="true"
                     >
-
                     </div>
-                    <div className="mx-auto max-w-2xl text-left">
+                    <div className="p-12">
                         <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">WHAT WE DO</h2>
-                        <div className="mx-auto mt-5 max-w-xl sm:mt-20">
-                            okokokokokoksodkjankdkjwe
+                        <div className="mt-8 sm:text-base text-xs">
+                            Ceramic coating is a protective layer applied to a vehicle's exterior surfaces. It is a liquid polymer that chemically bonds with the paintwork, creating a durable and transparent barrier. This coating offers numerous benefits, including long-lasting protection against UV rays, oxidation, chemical stains, and minor scratches. Ceramic coatings also provide hydrophobic properties, causing water to slide off the surface, making it easier to clean and maintain the vehicle's shine. With its exceptional durability and protective properties, ceramic coating is a popular choice for those looking to preserve and enhance their vehicle's paintwork for an extended period.
+
                         </div>
                     </div>
-                </div>
-                <div className="md:w-1/2 bg-cover" style={{ backgroundImage: `url("https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg")` }}>
-
                 </div>
             </div>
             <div className="bg-black py-20 sm:py-25">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl sm:text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">OUR PACKAGES</h2>
-                        <p className="mt-6 text-lg leading-8 text-white">
-                            ppeeeepepeopo adam is pigu
-                        </p>
+
                     </div>
                     <div className="pt-10 flex justify-center items-center"><BookButton /></div>
-                    <div className="mx-auto mt-16 max-w-2xl border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+                    <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
                             <h3 className="text-2xl font-bold tracking-tight text-white">Prestige Detailing</h3>
                             <p className="mt-4 text-base leading-7 text-white">
@@ -93,7 +88,7 @@ export default function CeramicCoating() {
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto mt-0 max-w-2xl border-2 rounded-xl ring-1 ring-white sm:mt-10 lg:mx-0 lg:flex lg:max-w-none">
+                    <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
                             <h3 className="text-2xl font-bold tracking-tight text-white">Elite Detailing</h3>
                             <p className="mt-4 text-base leading-7 text-white">

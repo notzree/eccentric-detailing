@@ -37,6 +37,9 @@ export default function Tints() {
                         <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">WHAT WE DO</h2>
                         <div className="mt-8 sm:text-base text-xs">
                             Dyed window tints consist of a layer of dyed polyester material that is applied to the glass. They primarily offer increased privacy by reducing the visibility from the outside, while giving a uniform and sleek appearance to the vehicle's windows, and are typically more affordable compared to other tint options. However, over time, dyed tints may be prone to fading and discoloration, and they may not offer the same level of durability and heat rejection as Ceramic Tints.
+                            <br></br>
+                            <br></br>
+                            Ceramic tints is an advanced window film that is applied to vehicle windows for various benefits. Unlike traditional window films, ceramic tint is constructed with layers that offer superior heat rejection, UV protection, and glare reduction, ensuring minimal distortion and maintaining the natural appearance of the windows. Additionally, ceramic tints are highly durable, resisting scratches and fading over time. By effectively blocking infrared heat and harmful UV rays, ceramic tint helps to keep the vehicle's interior cool and protect leather from fading.
 
                         </div>
                     </div>
@@ -49,7 +52,7 @@ export default function Tints() {
 
                     </div>
                     <div className="pt-10 flex justify-center items-center"><BookButton /></div>
-                    <div className="mx-auto mt-16 max-w-2xl border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+                    <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
                             <h3 className="text-2xl font-bold tracking-tight text-white">Prestige Detailing</h3>
                             <p className="mt-4 text-base leading-7 text-white">
@@ -87,7 +90,7 @@ export default function Tints() {
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto mt-0 max-w-2xl border-2 rounded-xl ring-1 ring-white sm:mt-10 lg:mx-0 lg:flex lg:max-w-none">
+                    <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
                             <h3 className="text-2xl font-bold tracking-tight text-white">Elite Detailing</h3>
                             <p className="mt-4 text-base leading-7 text-white">
