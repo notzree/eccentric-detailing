@@ -21,9 +21,8 @@ export default function CeramicTints() {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-white text-6xl font-bold">CERAMIC TINTS</h1>
-                        <p className="mb-10 text-white w-auto">
-                            Experience exceptional vehicle detailing with unparalleled attention to detail</p>
+                        <h1 className="mb-10 text-white text-6xl font-bold">CERAMIC TINTS</h1>
+                        
                         <BookButton />
                     </div>
                 </div>

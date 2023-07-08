@@ -5,17 +5,17 @@ import Link from 'next/link'
 
 const features = [
   {
-    name: 'big pp',
+    
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Eccentric Detailing takes pride in rejuvenating your vehicle's appearance. With our meticulous attention to detail and cutting-edge techniques, we specialize in transforming your car into a showroom-worthy masterpiece in the comfort of your own driveway.",
   },
   {
-    name: 'big butt',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    
+    description: "Our highly skilled team of professional detailers utilizes state-of-the-art equipment and top-quality products to ensure an exceptional level of service. From thorough exterior foam-washes and paint corrections to deep interior cleaning and leather conditioning, we go above and beyond to restore your vehicle's original beauty. ",
   },
   {
-    name: 'badonkers',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    
+    description: "Whether you drive a luxury sedan, a rugged SUV, or a classic sports car, we offer a range of tailored packages to suit your specific needs. Eccentric Detailing to provide unparalleled expertise, customer satisfaction, and a stunning finish that will leave you breathless. Your car deserves the best, and we are here to deliver excellence with every touch.",
   },
 ]
 
@@ -23,7 +23,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className='bg-black w-screen h-screen'>
+      <div className='bg-black w-screen h-screen  bg-cover' style={{"background-image": "url(/indexBackground.png)"}}>
+        
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
 
@@ -32,9 +33,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               ECCENTRIC DETAILING
             </h1>
-            <p className="mt-6 text-lg leading-8 text-neutral-400">
-              pppp
-            </p>
+            
             <div className="mt-10 flex items-center justify-center gap-x-6">
 
               <BookButton />
@@ -53,15 +52,11 @@ export default function Home() {
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-red-400">ABOUT</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl">ECCENTRIC</p>
-                <p className="mt-6 text-lg leading-8 text-black">
-                  pepepepeopopoeopooieopoeoio
-                </p>
+                
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   {features.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
-                      <dt className="inline font-semibold text-gray-900">
-                        {feature.name}
-                      </dt>{' '}
+                      
                       <dd className="inline">{feature.description}</dd>
                     </div>
                   ))}
@@ -77,7 +72,7 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg"
+              src="https://wallpaperaccess.com/full/26894.jpg"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}

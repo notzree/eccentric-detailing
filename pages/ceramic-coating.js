@@ -17,13 +17,12 @@ export default function CeramicCoating() {
             <Header />
 
 
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg")` }}>
+            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://wallpapers.com/images/featured/cglqdk3qgwuhk35k.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-white text-6xl font-bold">CERAMIC COATING</h1>
-                        <p className="mb-10 text-white w-auto">
-                            Experience exceptional vehicle detailing with unparalleled attention to detail</p>
+                        <h1 className="mb-10 text-white text-6xl font-bold">CERAMIC COATING</h1>
+                        
                         <BookButton />
                     </div>
                 </div>

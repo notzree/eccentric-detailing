@@ -33,8 +33,8 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <img className="h-20 w-20" src="logo.png" alt="" />
+          <Link href="/" className="-m-4 ">
+            <img className="h-24 w-24" src="logo.png" alt="" />
           </Link>
         </div>
         <div className="flex lg:hidden">
