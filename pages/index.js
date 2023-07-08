@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className='bg-black w-screen h-screen  bg-cover' style={{ "background-image": "url(/indexBackground.png)" }}>
+      <div className='bg-black w-screen h-screen  bg-cover' style={{ "background-image": "url(/IndexBackground.png)" }}>
 
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
