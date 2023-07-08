@@ -91,11 +91,11 @@ export default function Home() {
         <div className="carousel bg-black m-5">
           <div className="mx-7 carousel-item">
             <div className="ml-5 card w-60 bg-white shadow-xl">
-              <figure><img className="h-full" src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" alt="Shoes" /></figure>
+              <figure><img className="h-full" src="/detailingHeroPhoto.png" alt="Shoes" /></figure>
               <div className="card-body h-1/2">
                 <h2 className="card-title">Detailing</h2>
                 <div className="card-actions justify-start mt-5">
-                  <button className="btn btn-error">VIEW SERVICE</button>
+                  <Link className="btn btn-error" href= "/detailing">VIEW SERVICE</Link>
                 </div>
               </div>
             </div>
@@ -103,11 +103,11 @@ export default function Home() {
 
           <div className="mx-7 carousel-item">
             <div className="ml-5 card w-64 bg-white shadow-xl">
-              <figure><img className="h-full" src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" alt="Shoes" /></figure>
+              <figure><img className="h-full" src="/paint-correctionHeroPhoto.png" alt="Shoes" /></figure>
               <div className="card-body h-1/2">
                 <h2 className="card-title">Paint Correction</h2>
                 <div className="card-actions justify-start  mt-5">
-                  <button className="btn btn-error">VIEW SERVICE</button>
+                  <Link className="btn btn-error" href="/paint-correction">VIEW SERVICE</Link>
                 </div>
               </div>
             </div>
@@ -115,12 +115,12 @@ export default function Home() {
 
           <div className="mx-7 carousel-item">
             <div className="ml-5 card w-64 bg-white shadow-xl">
-              <figure><img className="h-full" src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" alt="Shoes" /></figure>
+              <figure><img className="h-full" src="ceramicCoatingHeroPhoto.png" alt="Shoes" /></figure>
               <div className="card-body h-1/2">
                 <h2 className="card-title">Ceramic Coating</h2>
 
                 <div className="card-actions justify-start  mt-5">
-                  <button className="btn btn-error">VIEW SERVICE</button>
+                  <Link className="btn btn-error" href="/ceramic-coating">VIEW SERVICE</Link>
                 </div>
               </div>
             </div>
@@ -128,12 +128,12 @@ export default function Home() {
 
           <div className="mx-7 carousel-item">
             <div className="ml-5 card w-64 bg-white shadow-xl">
-              <figure><img className="h-full" src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" alt="Shoes" /></figure>
+              <figure><img className="h-full" src="/tintsHeroPhoto.png " alt="Shoes" /></figure>
               <div className="card-body h-1/2">
                 <h2 className="card-title">Tints</h2>
 
                 <div className="card-actions justify-start  mt-5">
-                  <button className="btn btn-error">VIEW SERVICE</button>
+                  <Link className="btn btn-error" href="/tints">VIEW SERVICE</Link>
                 </div>
               </div>
             </div>
@@ -142,12 +142,12 @@ export default function Home() {
 
           <div className="mx-7 carousel-item">
             <div className="ml-5 card w-64 bg-white shadow-xl">
-              <figure><img className="h-full" src="https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg" alt="Shoes" /></figure>
+              <figure><img className="h-full" src="/wrapsHeroPhoto.png" alt="Shoes" /></figure>
               <div className="card-body h-1/2">
                 <h2 className="card-title">Wraps</h2>
 
                 <div className="card-actions justify-start  mt-5">
-                  <button className="btn btn-error">VIEW SERVICE</button>
+                  <Link className="btn btn-error" href="/wraps">VIEW SERVICE</Link>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Home() {
       </div>
       <div className="bg-black w-screen h-full px-20 sm:pb-0 p-20">
         <div className="flex flex-col items-center justify-center mx-auto max-w-7xl sm:px-6 sm:py-20 lg:px-8">
-          <h2 className="text-3xl text-center sm:text-4xl mb-10 font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl text-center  mb-10 font-bold tracking-tight text-white sm:text-4xl">
             WE GUARANTEE YOU'LL LOVE OUR WORK.
           </h2>
 
