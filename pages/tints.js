@@ -16,44 +16,37 @@ export default function Tints() {
         <>
             <Header />
 
-
-            <div className="hero min-h-screen" style={{"background-image": "url(/tintsHeroPhoto.png)"}}>
+            <div className="hero min-h-screen" style={{ "background-image": "url(/tintsHeroPhoto.png)" }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-white text-6xl font-bold">TINTS</h1>
-                        <p className="mb-10 text-white w-auto">
-                            Experience exceptional vehicle detailing with unparalleled attention to detail</p>
+                        <h1 className="mb-10 text-white text-6xl font-bold">TINTS</h1>
+
                         <BookButton />
                     </div>
                 </div>
             </div>
-            <div className='w-screen flex flex-col md:flex-row'>
-                <div className="isolate bg-white px-6 py-20 lg:px-8 md:w-1/2">
+            <div className='w-screen'>
+                <div className="isolate bg-white py-20 lg:px-8">
                     <div
                         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
                         aria-hidden="true"
                     >
-
                     </div>
-                    <div className="mx-auto max-w-2xl text-left">
+                    <div className="p-12">
                         <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">WHAT WE DO</h2>
-                        <div className="mx-auto mt-5 max-w-xl sm:mt-20">
-                            okokokokokoksodkjankdkjwe
+                        <div className="mt-8 sm:text-base text-xs">
+                            Dyed window tints consist of a layer of dyed polyester material that is applied to the glass. They primarily offer increased privacy by reducing the visibility from the outside, while giving a uniform and sleek appearance to the vehicle's windows, and are typically more affordable compared to other tint options. However, over time, dyed tints may be prone to fading and discoloration, and they may not offer the same level of durability and heat rejection as Ceramic Tints.
+
                         </div>
                     </div>
-                </div>
-                <div className="md:w-1/2 bg-cover" style={{ backgroundImage: `url("https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg")` }}>
-
                 </div>
             </div>
             <div className="bg-black py-20 sm:py-25">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl sm:text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">OUR PACKAGES</h2>
-                        <p className="mt-6 text-lg leading-8 text-white">
-                            ppeeeepepeopo adam is pigu
-                        </p>
+
                     </div>
                     <div className="pt-10 flex justify-center items-center"><BookButton /></div>
                     <div className="mx-auto mt-16 max-w-2xl border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
