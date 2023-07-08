@@ -13,7 +13,6 @@ export default function Header() {
   const products = [
     { name: "Detailing", href: "/detailing" },
     { name: "Paint Correction", href: "/paint-correction" },
-    { name: "Ceramic Tints", href: "/ceramic-tints" },
     { name: "Ceramic Coating", href: "/ceramic-coating" },
     { name: "Tints", href: "/tints" },
     { name: "Wraps", href: "/wraps" },
