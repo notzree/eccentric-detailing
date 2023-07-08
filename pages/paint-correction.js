@@ -17,7 +17,7 @@ export default function PaintCorrection() {
             <Header />
 
 
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1621688285384-92e5019db2d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80")` }}>
+            <div className="hero min-h-screen" style={{"background-image": "url(/paint-correctionHeroPhoto.png)"}}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">
                     <div className="">
