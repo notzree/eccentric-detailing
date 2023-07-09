@@ -54,7 +54,7 @@ export default function Tints() {
                     <div className="pt-10 flex justify-center items-center"><BookButton /></div>
                     <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
-                            <h3 className="text-2xl font-bold tracking-tight text-white">Prestige Detailing</h3>
+                            <h3 className="text-2xl font-bold tracking-tight text-white">Window Tints</h3>
                             <p className="mt-4 text-base leading-7 text-white">
                                 hehjafasns
                             </p>
@@ -77,12 +77,27 @@ export default function Tints() {
                         <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                             <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                                 <div className="mx-auto max-w-xs px-8">
-                                    <p className="text-base font-semibold text-neutral-500">Base Price</p>
-                                    <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+
+                                    <p className="text-base font-semibold text-neutral-500">Two Windows</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$79.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
-
+                                    <p className="mt-6 text-base font-semibold text-neutral-500">Four Windows</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$149.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
+                                    <p className=" mt-6 text-base font-semibold text-neutral-500">Front & Back</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$99.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
+                                    <p className=" mt-6 text-base font-semibold text-neutral-500">Full Car</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$279.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
                                     <p className="mt-6 text-xs leading-5 text-gray-600">
                                         Price varies based on vehicle model. Add ons available.
                                     </p>
@@ -92,7 +107,7 @@ export default function Tints() {
                     </div>
                     <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
-                            <h3 className="text-2xl font-bold tracking-tight text-white">Elite Detailing</h3>
+                            <h3 className="text-2xl font-bold tracking-tight text-white">Ceramic Window Tints</h3>
                             <p className="mt-4 text-base leading-7 text-white">
                                 hehjafasns
                             </p>
@@ -115,9 +130,24 @@ export default function Tints() {
                         <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                             <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                                 <div className="mx-auto max-w-xs px-8">
-                                    <p className="text-base font-semibold text-neutral-500">Base Price</p>
-                                    <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                    <p className="text-base font-semibold text-neutral-500">Two Windows</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$159.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
+                                    <p className="mt-6 text-base font-semibold text-neutral-500">Four Windows</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$239.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
+                                    <p className=" mt-6 text-base font-semibold text-neutral-500">Front & Back</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$249.99</span>
+                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
+                                    </p>
+                                    <p className=" mt-6 text-base font-semibold text-neutral-500">Full Car</p>
+                                    <p className=" flex items-baseline justify-center gap-x-2">
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$359.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 

@@ -52,7 +52,7 @@ export default function CeramicCoating() {
                     <div className="pt-10 flex justify-center items-center"><BookButton /></div>
                     <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
-                            <h3 className="text-2xl font-bold tracking-tight text-white">Prestige Detailing</h3>
+                            <h3 className="text-2xl font-bold tracking-tight text-white">Hybrid Sealant</h3>
                             <p className="mt-4 text-base leading-7 text-white">
                                 hehjafasns
                             </p>
@@ -77,7 +77,7 @@ export default function CeramicCoating() {
                                 <div className="mx-auto max-w-xs px-8">
                                     <p className="text-base font-semibold text-neutral-500">Base Price</p>
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$299.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 
@@ -90,7 +90,7 @@ export default function CeramicCoating() {
                     </div>
                     <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
                         <div className="p-8 sm:p-10 lg:flex-auto">
-                            <h3 className="text-2xl font-bold tracking-tight text-white">Elite Detailing</h3>
+                            <h3 className="text-2xl font-bold tracking-tight text-white">Sonax CC36 Ceramic Coating</h3>
                             <p className="mt-4 text-base leading-7 text-white">
                                 hehjafasns
                             </p>
@@ -115,7 +115,7 @@ export default function CeramicCoating() {
                                 <div className="mx-auto max-w-xs px-8">
                                     <p className="text-base font-semibold text-neutral-500">Base Price</p>
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$549.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 

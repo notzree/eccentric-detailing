@@ -95,19 +95,19 @@ export default function Detailing() {
             <div className="pt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
               <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                 <div className="mx-auto max-w-xs px-8">
-                  <p className="text-base font-semibold text-neutral-500">Small vehicles</p>
+                  <p className="text-base font-semibold text-neutral-500">Small Vehicles</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$145</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$144.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
-                  <p className="mt-6 text-base font-semibold text-neutral-500">Medium vehicles</p>
+                  <p className="mt-6 text-base font-semibold text-neutral-500">Medium Vehicles</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$155</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$154.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
-                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large vehicles (3 rows)</p>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large Vehicles (3 rows)</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$179.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
 
@@ -144,19 +144,19 @@ export default function Detailing() {
             <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
               <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-28">
                 <div className="mx-auto max-w-xs px-8">
-                  <p className=" mt-6 text-base font-semibold text-neutral-500">Small vehicle</p>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Small Vehicle</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$200</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$199.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
-                  <p className=" mt-6  text-base font-semibold text-neutral-500">Medium vehicle</p>
+                  <p className=" mt-6  text-base font-semibold text-neutral-500">Medium Vehicle</p>
                   <p className="flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$220</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$219.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
-                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large vehicle (3 rows)</p>
+                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large Vehicle (3 rows)</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-5xl font-bold tracking-tight text-gray-900">$250</span>
+                    <span className="text-5xl font-bold tracking-tight text-gray-900">$249.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
 
@@ -170,9 +170,9 @@ export default function Detailing() {
           </div>
           <div className="mx-10 mt-16 border-2 rounded-xl ring-1 ring-white sm:mt-20 lg:flex mb-4 sm:mb-0">
             <div className="p-8 sm:p-10 lg:flex-auto">
-              <h3 className="text-2xl font-bold tracking-tight text-white">Ultimate Detailing</h3>
+              <h3 className="text-2xl font-bold tracking-tight text-white">Ultimate Showcase Detailing</h3>
               <p className="mt-4 text-base leading-7 text-white">
-                Our Ultimate Detailing package is for more maintenance condition cars, our entry level package.
+                Our Ultimate Showcase Detailing Package is the epitome of luxury and perfection for your beloved vehicle.
               </p>
               <div className="mt-5 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-neutral-500 ">What’s included</h4>
@@ -192,23 +192,14 @@ export default function Detailing() {
             </div>
 
             <div className="pt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-              <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+              <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-32">
                 <div className="mx-auto max-w-xs px-8">
-                  <p className="text-base font-semibold text-neutral-500">Small vehicles</p>
+                  <p className="text-base font-semibold text-neutral-500">Base Price</p>
                   <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">$145</span>
+                    <span className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">$599.99</span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                   </p>
-                  <p className="mt-6 text-base font-semibold text-neutral-500">Medium vehicles</p>
-                  <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">$155</span>
-                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
-                  </p>
-                  <p className=" mt-6 text-base font-semibold text-neutral-500">Large vehicles (3 rows)</p>
-                  <p className=" flex items-baseline justify-center gap-x-2">
-                    <span className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">$180</span>
-                    <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
-                  </p>
+
 
                   <p className="mt-6 text-xs leading-5 text-gray-600">
                     Vehicle sizing up to Eccentric's discretion. Add ons available.

@@ -15,8 +15,6 @@ export default function Wraps() {
     return (
         <>
             <Header />
-
-
             <div className="hero min-h-screen" style={{ "background-image": "url(/wrapsHeroPhoto.png)" }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center">

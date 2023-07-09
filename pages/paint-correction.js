@@ -75,7 +75,7 @@ export default function PaintCorrection() {
                                 <div className="mx-auto max-w-xs px-8">
                                     <p className="text-base font-semibold text-neutral-500">Base Price</p>
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$249.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 
@@ -111,7 +111,7 @@ export default function PaintCorrection() {
                                 <div className="mx-auto max-w-xs px-8">
                                     <p className="text-base font-semibold text-neutral-500">Base Price</p>
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$449.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 
@@ -147,7 +147,7 @@ export default function PaintCorrection() {
                                 <div className="mx-auto max-w-xs px-8">
                                     <p className="text-base font-semibold text-neutral-500">Base Price</p>
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$180</span>
+                                        <span className="text-5xl font-bold tracking-tight text-gray-900">$599.99</span>
                                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                     </p>
 
