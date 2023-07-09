@@ -3,23 +3,23 @@ import Link from 'next/link'
 import { Switch } from '@headlessui/react'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import {client} from '@/sanityClient/client'
+import PortfolioCard from '@/components/portfolioCard'
 
-const products = [
-    {
-        id: 1,
-        name: 'BMW',
-        imageSrc: 'https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    },
-    {
-        id: 2,
-        name: 'BMW',
-        imageSrc: 'https://www.topgear.com/sites/default/files/2022/10/field-adro-g8x-m3-m4-green-front-q-2.jpg',
-        imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-    }
-]
 
-export default function Portfolio() {
+export async function getStaticProps(){
+
+        const query = '*[_type =="Image"]| order(order asc)';
+        const images = await client.fetch(query);
+        return{
+            props:{
+                images: images
+            }
+        }
+}
+
+
+export default function Portfolio({images}) {
     return (
         <>
             <Header />
@@ -44,17 +44,8 @@ export default function Portfolio() {
                     <h2 className="sr-only">Products</h2>
 
                     <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                        {products.map((product) => (
-                            <a key={product.id} className="group">
-                                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img
-                                        src={product.imageSrc}
-                                        alt={product.imageAlt}
-                                        className="h-full w-full object-cover object-center group-hover:opacity-75"
-                                    />
-                                </div>
-                                <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-                            </a>
+                        {images.map((image) => (
+                            <PortfolioCard key={image._id} image={image} />
                         ))}
                     </div>
                 </div>
